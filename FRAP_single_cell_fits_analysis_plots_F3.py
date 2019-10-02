@@ -41,7 +41,7 @@ def diffusion_fit (t, C, b, w, D):
     This function is going to use the Ellenberg method for determining the
     diffusion constant from our experimental data.
     t = time (minutes)
-    C = inital flouresecene intensity of ROI (au)
+    C = final flouresecene intensity of ROI (au)
     b = bleach depth (intensity following bleach of ROI, au)
     w = width of bleached region (um)
     D = effective diffusion coefficient (um^2/min)
